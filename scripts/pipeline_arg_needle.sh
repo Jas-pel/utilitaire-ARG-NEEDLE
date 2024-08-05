@@ -1,6 +1,10 @@
 #!/bin/sh
 # Jasmin Pelletier
+
+
+# ALLER DANS LA DIRECTORY
 cd "Utilitaire-ARG-NEEDLE/"
+
 
 # ARGUMENT
 phased_vcf_file=$1
