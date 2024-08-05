@@ -81,7 +81,7 @@ bash path/vers/pipeline_arg_needle.sh "phased_vcf_file" "csv_file" start stop "t
 
 Pour exécuter l'affichage, il vous suffit d'écrire dans la console ceci :
 ```bash
-bash path/vers/visualisation.sh "csv_file" "path/vers/.argn" "lst_sample" "cluster" "terminaison_fichier"
+bash path/vers/visualisation.sh "csv_file_in_order" "path/vers/.argn" "lst_sample" "cluster" "terminaison_fichier"
 ```
 
 
