@@ -95,3 +95,22 @@ Il vous suffit d'activer votre environement virtuel (source venv/bin/activate) e
   - **Solution :** Trouver le fichier `decoders.py`, et mettre un commentaire devant la vérification de l'augmentation des positions génétiques.
   - **Explication :** Selon `arg-needle`, les positions génétiques n'augmentent pas mais elles augmentent bel et bien. Le problème vient de la représentation des nombres nuages en 16 bits.
 
+
+## Suggestions et Contact
+
+Je suis toujours preneur d'idées pour améliorer ce projet. Si vous avez des suggestions ou des questions, n'hésitez pas à me contacter :
+
+- Par email : [pelletierjasmin7@gmail.com](mailto:votre.email@gmail.com)
+- Sur GitHub : [Jas-pel](https://github.com/votre-profil)
+
+Je serai ravi de discuter de toute amélioration ou collaboration possible.
+
+
+## À propos
+
+Ce projet a été développé au cours de mon stage de trois mois au laboratoire Genopop, associé à l'UQAC. Je tiens à remercier les personnes qui ont apporté leur aide et leurs suggestions tout au long de ce processus.
+
+Ce projet a été subventionné par le gouvernement du Québec dans le cadre du programme BIRSC, ainsi que du soutien du laboratoire Genopop.
+
+Réalisé par Jasmin Pelletier, 2024
+
