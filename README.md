@@ -38,6 +38,8 @@ Il y a 6 arguments à fournir pour exécuter le script.
   FDM007_JM0083,1,H2618
   FDM007_JM0083,0,H2618
   FDM014_JM0725,1,H2843
+  ```
+
   
 **IMPORTANT :**
 Les échantillons doivent toujours apparaître deux fois de suite dans le CSV.
