@@ -66,7 +66,13 @@ bash /lustre03/project/6033529/ARGS/scripts/visualisation.sh "/lustre03/project/
 
 
 
-# 3. Bug possible
+# 3. Comment installer les packages nécessaires ?
+
+Il vous suffit d'activer votre environement virtuel (source venv/bin/activate) et de faire pip install "requirements.txt".
+
+
+
+# 4. Bug possible
 
 - **Un ou des samples présents dans le CSV ne sont pas dans le VCF initial.** 
   - **Solution :** S'assurer que les samples sont dans le VCF.
