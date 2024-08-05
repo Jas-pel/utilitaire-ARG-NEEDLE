@@ -15,7 +15,7 @@ Cet utilitaire facilite l'utilisation d'ARG-NEEDLE en offrant des fonctionnalit�
 
 ## Arguments nécessaires
 
-Il y a 6 arguments à fournir pour exécuter le script.
+Il y a 7 arguments à fournir pour exécuter le script.
 
 #### VCF
 - **Description :** Chemin vers un fichier VCF.
@@ -66,13 +66,17 @@ Les échantillons doivent toujours apparaître deux fois de suite dans le CSV.
 - **Valeurs possible :** 
 N'importe quelle titres des colonnes du CSV.
 
+#### CLUSTER
+- **Description :** Dossier menant vers l'environement virtuel.
+- **Exemple :** 'dir/vers/venv/'
+
 
 ## Comment exécuter le code ?
 
 Pour exécuter le pipeline ARG-NEEDLE, utilisez la commande suivante dans votre console :
 
 ```bash
-bash path/vers/pipeline_arg_needle.sh "phased_vcf_file" "csv_file" start stop "terminaison_fichier" "lst_sample" "cluster"
+bash path/vers/pipeline_arg_needle.sh "phased_vcf_file" "csv_file" start stop "terminaison_fichier" "lst_sample" "cluster" "dir/vers/venv/"
 ```
 
 Pour exécuter l'affichage, il vous suffit d'écrire dans la console ceci :

@@ -1,6 +1,6 @@
 #!/bin/sh
 # Jasmin Pelletier
-
+cd "Utilitaire-ARG-NEEDLE/"
 
 # ARGUMENT
 phased_vcf_file=$1
@@ -10,15 +10,15 @@ stop=$4
 terminaison_fichier=$5
 lst_sample=$6
 cluster=$7
+path_venv=$8
 
 
 # CONSTANTE
 # Dossier de travail
-ARGS_DIR="/lustre03/project/6033529/ARGS/"
-SCRIPTS_DIR="${ARGS_DIR}scripts/"
-RESULTS_DIR="${ARGS_DIR}results/"
-INPUT_ARG_NEEDLE_DIR="${ARGS_DIR}data/INPUT_ARG_NEEDLE/"
-LOG_ARG_NEEDLE_DIR="${ARGS_DIR}data/LOG_ARG_NEEDLE/"
+SCRIPTS_DIR="scripts/"
+RESULTS_DIR="results/"
+INPUT_ARG_NEEDLE_DIR="data/INPUT_ARG_NEEDLE/"
+LOG_ARG_NEEDLE_DIR="data/LOG_ARG_NEEDLE/"
 mkdir -p "${INPUT_ARG_NEEDLE_DIR}" "${LOG_ARG_NEEDLE_DIR}" "${RESULTS_DIR}" # Créer les dossiesrs si ils existent pas
 chmod -R 777 "${INPUT_ARG_NEEDLE_DIR}" "${LOG_ARG_NEEDLE_DIR}" "${RESULTS_DIR}" # Donne les permissions à tout le monde
 
@@ -36,7 +36,7 @@ arg_file="${RESULTS_DIR}${terminaison_fichier}"
 
 
 # ÉTAPE 0 : CONNECTION VENV + AFFICHER LE LOGO
-source "${SCRIPTS_DIR}venv/bin/activate"
+source "${path_venv}/bin/activate"
 source "${SCRIPTS_DIR}arg_needle_logo.sh"
 
 
