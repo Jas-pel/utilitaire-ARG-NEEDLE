@@ -4,7 +4,7 @@ import plotly.express as px
 
 def create_figure_html(data, header_information, CLUSTER) -> object:
     """ 
-    Créer une figure HTML et la retourne.
+    Créer une figure HTML et la retourne .
     """
     fig =  px.sunburst(
         data,
