@@ -1,5 +1,6 @@
 # Utilitaire ARG-NEEDLE
 
+
 ## Description
 
 **ARG-NEEDLE** est un package conçu pour inférer des graphiques de recombinaison ancestrale (ARG) à partir de données de génotypage ou de séquençage. Il permet également de réaliser diverses analyses basées sur les ARG, telles que les associations généalogiques.
@@ -10,7 +11,6 @@ Cet utilitaire facilite l'utilisation d'ARG-NEEDLE en offrant des fonctionnalit�
 - **Association des données** : Associe des données de survols aux échantillons pour une analyse détaillée des clusters, des familles et plus encore.
 - **Simplicité d'utilisation** : Nécessite seulement un fichier VCF et un fichier CSV pour fonctionner.
 - **Personnalisable** : Les graphiques interactifs et les arbres sont facilement personnalisables pour divers types d'utilisation.
-
 
 
 ## Arguments nécessaires
@@ -40,8 +40,7 @@ Il y a 6 arguments à fournir pour exécuter le script.
   FDM014_JM0725,1,H2843
   ```
 
-  
-**IMPORTANT :**
+- **IMPORTANT :**
 Les échantillons doivent toujours apparaître deux fois de suite dans le CSV.
 
 #### START
@@ -68,9 +67,7 @@ Les échantillons doivent toujours apparaître deux fois de suite dans le CSV.
 N'importe quelle titres des colonnes du CSV.
 
 
-
-# Comment exécuter le code ?
-
+## Comment exécuter le code ?
 
 Pour exécuter le pipeline ARG-NEEDLE, utilisez la commande suivante dans votre console :
 
@@ -84,14 +81,12 @@ bash path/vers/visualisation.sh "csv_file" "path/vers/.argn" "lst_sample" "clust
 ```
 
 
-
-# Comment installer les packages nécessaires ?
+## Comment installer les packages nécessaires ?
 
 Il vous suffit d'activer votre environement virtuel (source venv/bin/activate) et de faire pip install "requirements.txt".
 
 
-
-# Bug possible
+## Bug possible
 
 - **Un ou des samples présents dans le CSV ne sont pas dans le VCF initial.** 
   - **Solution :** S'assurer que les samples sont dans le VCF.
