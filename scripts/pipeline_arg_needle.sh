@@ -3,7 +3,7 @@
 
 
 # ALLER DANS LA DIRECTORY
-cd "Utilitaire-ARG-NEEDLE/"
+cd "/home/jaspel/projects/rrg-girardsi/ARGS/Utilitaire-ARG-NEEDLE"
 
 
 # ARGUMENT
