@@ -2,7 +2,7 @@
 # Jasmin Pelletier
 
 
-# ALLER DANS LA DIRECTORY
+# ALLER DANS LA REPOSITERY
 cd "/home/jaspel/projects/rrg-girardsi/ARGS/Utilitaire-ARG-NEEDLE"
 
 
