@@ -27,8 +27,8 @@ mkdir -p "${INPUT_ARG_NEEDLE_DIR}" "${LOG_ARG_NEEDLE_DIR}" "${RESULTS_DIR}" # Cr
 chmod -R 777 "${INPUT_ARG_NEEDLE_DIR}" "${LOG_ARG_NEEDLE_DIR}" "${RESULTS_DIR}" # Donne les permissions à tout le monde
 
 # Autre
-sample_col_1="${LOG_ARG_NEEDLE_DIR}dm1_patients_1_col_${terminaison_fichier}.lst"
-sample_col_2="${LOG_ARG_NEEDLE_DIR}dm1_patients_2_col_${terminaison_fichier}.lst"
+sample_col_1="${LOG_ARG_NEEDLE_DIR}patients_1_col_${terminaison_fichier}.lst"
+sample_col_2="${LOG_ARG_NEEDLE_DIR}patients_2_col_${terminaison_fichier}.lst"
 output_path="${INPUT_ARG_NEEDLE_DIR}${terminaison_fichier}"
 map_file="${output_path}.map" 
 arg_file="${RESULTS_DIR}${terminaison_fichier}"  
