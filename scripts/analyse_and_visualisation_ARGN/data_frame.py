@@ -9,7 +9,7 @@ def trouver_noeuds_a_pas_afficher(arbre: object, donnees_dict: dict[list]) -> li
     noeuds_a_pas_afficher = []
     for id_noeud in arbre.nodes():
         if id_noeud not in noeuds_a_pas_afficher :
-            if all(["0" == donnees_dict[id_sample][2] or "testtttt" == donnees_dict[id_sample][4] for id_sample in arbre.leaves(id_noeud)]):
+            if all(["0" == donnees_dict[id_sample][2] for id_sample in arbre.leaves(id_noeud)]):
                 noeuds_a_pas_afficher.extend(list(arbre.nodes(id_noeud)))
     return noeuds_a_pas_afficher
 
