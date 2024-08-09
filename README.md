@@ -106,6 +106,9 @@ Il vous suffit d'activer votre environement virtuel (source venv/bin/activate) e
   - **Solution :** Trouver le fichier `decoders.py`, et mettre un commentaire devant la vérification de l'augmentation des positions génétiques.
   - **Explication :** Selon `arg-needle`, les positions génétiques n'augmentent pas mais elles augmentent bel et bien. Le problème vient de la représentation des nombres nuages en 16 bits.
 
+- **Un package R n'est pas installer.** 
+  - **Solution :** Downloader le package R
+
 
 ## Suggestions et Contact
 
@@ -124,4 +127,10 @@ Ce projet a été développé au cours de mon stage de trois mois au laboratoire
 Ce projet a été subventionné par le gouvernement du Québec dans le cadre du programme BIRSC, ainsi que du soutien du laboratoire Genopop.
 
 Réalisé par Jasmin Pelletier, 2024
+
+
+# Suite du projet
+
+Il faut vérfier si le .sample à besoin de la position génétique ou pas. Si il en a pas besoin on peux enlever le fichier interpolation.r
+
 
