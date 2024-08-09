@@ -15,7 +15,7 @@ Cet utilitaire facilite l'utilisation d'ARG-NEEDLE en offrant des fonctionnalit�
 
 ## Arguments nécessaires
 
-Il y a 7 arguments à fournir pour exécuter le script.
+Il y a 9 arguments à fournir pour exécuter le script.
 
 #### VCF
 - **Description :** Chemin vers un fichier VCF.
@@ -70,13 +70,16 @@ N'importe quelle titres des colonnes du CSV.
 - **Description :** Dossier menant vers l'environement virtuel.
 - **Exemple :** 'dir/vers/venv/'
 
+### CHROMOSOME
+- **Description :** Indique le chromosome sur lequel est présent la maladie.
+- **Exemple :** 9
 
 ## Comment exécuter le code ?
 
 Pour exécuter le pipeline ARG-NEEDLE, utilisez la commande suivante dans votre console :
 
 ```bash
-bash path/vers/pipeline_arg_needle.sh "phased_vcf_file" "csv_file" start stop "terminaison_fichier" "lst_sample" "cluster" "dir/vers/venv/"
+bash path/vers/pipeline_arg_needle.sh "phased_vcf_file" "csv_file" start stop "terminaison_fichier" "lst_sample" "cluster" "dir/vers/venv/" chromosome
 ```
 
 Pour exécuter l'affichage, il vous suffit d'écrire dans la console ceci :

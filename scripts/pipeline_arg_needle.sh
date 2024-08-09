@@ -11,6 +11,7 @@ terminaison_fichier=$5
 lst_sample=$6
 cluster=$7
 path_venv=$8
+chromosome=$9
 
 
 # CONSTANTE
@@ -58,6 +59,7 @@ bash "${SCRIPTS_DIR}generate_input.sh" \
     "${sample_col_2}"  \
     "${output_path}"  \
     "${LOG_ARG_NEEDLE_DIR}"  \
+    "${chromosome}"
 
 
 # ÉTAPE 3 : CRÉER CSV EN ORDRE AVEC ID

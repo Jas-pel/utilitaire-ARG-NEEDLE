@@ -14,10 +14,11 @@ file_col_1_path="$5"
 file_col_2_path="$6"
 output_dir="$7"
 LOG_ARG_NEEDLE_DIR="$8"
+chromosome="$9"
 
 
 # Créer le fichier range
-echo -e "19\t${start}\t${stop}\t1" > "${range_file}"
+echo -e "${chromosome}\t${start}\t${stop}\t1" > "${range_file}"
 echo -e "Fichier range '${range_file}' créé avec succès."
 
 
