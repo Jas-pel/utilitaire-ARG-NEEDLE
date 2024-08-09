@@ -10,9 +10,8 @@ terminaison_fichier=$5
 dir_venv=$6
 
 # DOSSIER
-ARGS_DIR="/lustre03/project/6033529/ARGS/"
-RESULTS_DIR="${ARGS_DIR}results/"
-SCRIPTS_DIR="${ARGS_DIR}scripts/"
+RESULTS_DIR="results/"
+SCRIPTS_DIR="scripts/"
 
 
 # MAIN

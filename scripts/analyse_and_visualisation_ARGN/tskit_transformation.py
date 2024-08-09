@@ -17,7 +17,7 @@ def obtenir_arbre(tree_sequence: object) -> object:
     Reçois un objet tree_sequence.
     Retourne un objet arbre.
     """
-    return tree_sequence.at_index(200)
+    return tree_sequence.at_index(0)
 
 
 def obtenir_arbre_simplifier(tree_sequence: object, sample_to_keep: list[int]) -> object:

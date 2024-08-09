@@ -2,10 +2,6 @@
 # Jasmin Pelletier
 
 
-# ALLER DANS LA REPOSITERY
-cd "/home/jaspel/projects/rrg-girardsi/ARGS/Utilitaire-ARG-NEEDLE"
-
-
 # ARGUMENT
 phased_vcf_file=$1
 csv_file=$2
