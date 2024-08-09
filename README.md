@@ -132,5 +132,6 @@ Réalisé par Jasmin Pelletier, 2024
 # Suite du projet
 
 Il faut vérfier si le .sample à besoin de la position génétique ou pas. Si il en a pas besoin on peux enlever le fichier interpolation.r
+Si il en a besoin il faut lui envoyer le chromosome en paramètre.
 
 
