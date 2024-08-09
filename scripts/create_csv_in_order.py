@@ -42,14 +42,12 @@ for row in rows:
 
 # Réorganiser les lignes du CSV en fonction des identifiants du fichier .txt
 sorted_rows = []
-seen = set()  # Utiliser un ensemble pour garder une trace des lignes déjà ajoutées
 for identifiant in identifiants:
     if identifiant in csv_dict:
         # Ajouter les lignes correspondantes en conservant l'ordre original
         for row in csv_dict[identifiant]:
-            if row not in seen:
-                sorted_rows.append(row)
-                seen.add(row)
+            sorted_rows.append(row)
+
 
 
 # Ajouter la colonne "id" avec des chiffres croissants à partir de 0
