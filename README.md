@@ -33,15 +33,16 @@ Il y a 9 arguments à fournir pour exécuter le script.
 - **Exemple de CSV :**
   ```csv
   Sample,Utile,Haplotype
-  11128103_11128103,1,H061
-  11128103_11128103,0,H061
-  FDM007_JM0083,1,H2618
-  FDM007_JM0083,0,H2618
-  FDM014_JM0725,1,H2843
+  11128103_11128103_1,1,H061
+  11128103_11128103_2,0,H061
+  FDM007_JM0083_1,1,H2618
+  FDM007_JM0083_2,0,H2618
+  FDM014_JM0725_1,0,H2843
+  FDM014_JM0725_2,1,H2843
   ```
 
 - **IMPORTANT :**
-Les échantillons doivent toujours apparaître deux fois de suite dans le CSV.
+Les échantillons doivent toujours apparaître deux fois de suite dans le CSV en ordre d'allele.
 
 #### START
 - **Description :** Borne inférieur à utiliser pour le nombre de Mb.
@@ -66,7 +67,7 @@ Les échantillons doivent toujours apparaître deux fois de suite dans le CSV.
 - **Valeurs possible :** 
 N'importe quelle titres des colonnes du CSV.
 
-#### CLUSTER
+#### VENV
 - **Description :** Dossier menant vers l'environement virtuel.
 - **Exemple :** 'dir/vers/venv/'
 
@@ -74,7 +75,10 @@ N'importe quelle titres des colonnes du CSV.
 - **Description :** Indique le chromosome sur lequel est présent la maladie.
 - **Exemple :** 9
 
+
 ## Comment exécuter le code ?
+
+Commencer par aller dans le dossier utilitaire-ARG-NEEDLE
 
 Pour exécuter le pipeline ARG-NEEDLE, utilisez la commande suivante dans votre console :
 
@@ -96,7 +100,7 @@ Il vous suffit d'activer votre environement virtuel (source venv/bin/activate) e
 ## Bug possible
 
 - **Un ou des samples présents dans le CSV ne sont pas dans le VCF initial.** 
-  - **Solution :** S'assurer que les samples sont dans le VCF.
+  - **Solution :** S'assurer que les samples sont dans le VCF. Utiliser zmore `/path/to/file.vcf
 
 - **Voir l'erreur disant que les positions génétiques doivent augmenter lors de l'étape 4.** 
   - **Solution :** Trouver le fichier `decoders.py`, et mettre un commentaire devant la vérification de l'augmentation des positions génétiques.
