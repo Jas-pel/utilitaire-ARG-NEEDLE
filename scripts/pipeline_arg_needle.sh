@@ -80,7 +80,7 @@ echo "Fichier .map mis à jour écrit : ${map_file}"
 
 # ÉTAPE 5 : CRÉATION D'UN OBJET ARG-NEEDLE
 echo -e "\n\nÉTAPE 5 : CRÉATION D'UN OBJET ARG-NEEDLE\n"
-arg_needle --hap_gz "${output_path}.haps" --map "${map_file}" --out "${arg_file}" --chromsome "${chromosome}" 
+arg_needle --hap_gz "${output_path}.haps" --map "${map_file}" --out "${arg_file}" --chromosome "${chromosome}" 
 echo "Object arg_needle créer : ${arg_file}"
 
 
